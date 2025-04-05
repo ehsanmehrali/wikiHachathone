@@ -58,7 +58,7 @@ def get_hints(rand_article):
     :param rand_article: Object article
     :return: A tuple containing five hint(str) and description(str)
     """
-    genai.configure(api_key="AIzaSyDD4hrn6RJvmZT_gsZxUhWu-_CLdFQX9pE")
+    genai.configure(api_key="")
     model = genai.GenerativeModel(model_name="gemini-1.5-flash")
     response = model.generate_content(rand_article.text + " Give me five hints that make it very easy to figure out the title of the article. Do not tell me the title of the article!")
     structured_hints = hint_editor(response)
