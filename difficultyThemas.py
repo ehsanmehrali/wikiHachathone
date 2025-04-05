@@ -1,4 +1,5 @@
 import random
+
 difficulty_title_dict = {
         "easy": ["Albert Einstein", "Marie Curie", "Isaac Newton", "Charles Darwin", "Leonardo da Vinci",
               "Galileo Galilei", "Thomas Edison", "Gebrüder Grimm", "Wolfgang Amadeus Mozart",

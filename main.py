@@ -1,11 +1,13 @@
-from visualEffects import *
+import os
+import time
+
 from colorama import Fore, Style
 import wikipediaapi
 from thefuzz import fuzz
 import google.generativeai as genai
+
+from visualEffects import *
 from difficultyThemas import *
-import time
-import os
 
 
 def clear_screen():

@@ -1,7 +1,9 @@
+import time
+
 from colorama import Fore, Style
 
 from playMusic import *
-import time
+
 
 def hint_editor(hint_content):
     hints_description = Fore.BLUE + hint_content.text[:19]
