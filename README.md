@@ -1,4 +1,4 @@
-![Game Logo](https://imgur.com/a/SkKSTKR)
+![Game Logo](https://github.com/ehsanmehrali/wikiHachathone/blob/main/assets/logo.jpg?raw=true)
 # 🧠 Who am I ?
 ### Famous Personality Guessing Game
 
