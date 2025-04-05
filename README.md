@@ -2,9 +2,9 @@
 
 A Python-based console game developed during a **Masterschool Hackathon** by a team of four:
 
-- Ehsan Mehrali  
+- Ehsan Mehrali
 - Jürgen Kiensberger  
-- Robert Pluntke  
+- Robert Pluntke
 - Yevheniia Belohai  
 
 
@@ -53,7 +53,7 @@ genai.configure(api_key="YOUR_API_KEY")
 ```
 ---
 
-# 🧠 About the Game
+# 🕹️ About the Game
 #### Guess the Celebrity is an interactive console game where players try to identify celebrities based on hints extracted from their Wikipedia pages.
 #### Hints are dynamically generated using Google Gemini.
 #### Each round includes 5 clues related to the person's profession, achievements, or life events.
