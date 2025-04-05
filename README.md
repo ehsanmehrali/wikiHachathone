@@ -1,5 +1,6 @@
+![Game Logo](https://github.com/ehsanmehrali/wikiHachathone/blob/main/assets/logo.jpg?raw=true)
 # 🧠 Who am I ?
-## Famous Personality Guessing Game
+### Famous Personality Guessing Game
 
 A Python-based console game developed during a **_**Masterschool Hackathon**_** by a team of four:
 
