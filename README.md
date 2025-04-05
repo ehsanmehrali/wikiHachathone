@@ -1,6 +1,7 @@
-# 🧠 Famous Personality Guessing Game
+# 🧠 Who am I ?
+## Famous Personality Guessing Game
 
-A Python-based console game developed during a **Masterschool Hackathon** by a team of four:
+A Python-based console game developed during a **_**Masterschool Hackathon**_** by a team of four:
 
 - Ehsan Mehrali
 - Jürgen Kiensberger  
