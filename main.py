@@ -1,7 +1,4 @@
-import os
-import time
 
-from colorama import Fore, Style
 import wikipediaapi
 from thefuzz import fuzz
 import google.generativeai as genai
@@ -61,7 +58,7 @@ def get_hints(rand_article):
     :param rand_article: Object article
     :return: A tuple containing five hint(str) and description(str)
     """
-    genai.configure(api_key="")
+    genai.configure(api_key="AIzaSyDD4hrn6RJvmZT_gsZxUhWu-_CLdFQX9pE")
     model = genai.GenerativeModel(model_name="gemini-1.5-flash")
     response = model.generate_content(rand_article.text + " Give me five hints that make it very easy to figure out the title of the article. Do not tell me the title of the article!")
     structured_hints = hint_editor(response)
@@ -83,7 +80,7 @@ def start_game(max_guesses, difficulty, rounds):
 
         article = get_article(difficulty)
         description, hint1, hint2, hint3, hint4, hint5 = get_hints(article)
-        print(article.title)
+        # print(article.title)
 
         # Shows the 5 structured hints.
         print(f"\n{description}: ")
@@ -95,7 +92,6 @@ def start_game(max_guesses, difficulty, rounds):
         for attempt_count in range(max_guesses):
             try:
                 user_guess = input("\nYour guess: ")
-                print(check_guess(article.title, user_guess))
                 is_close = check_guess(article.title, user_guess)
 
                 if user_guess == "skip":
